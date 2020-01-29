@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyfujitsu",
-    version="0.9.0",
+    version="0.9.17",
     author="Mehdi Modarressi",
     author_email="Luckposht@gmail.com",
     maintainer="@xerxes87"
     description="Python library to control Fujitsu General Airconditioners on AylaNetworks IoT platform",
-    long_description=long_description,
+    long_description="long_description",
     #long_description_content_type="text/markdown",
-    url="https://github.com/Mmodarre/pyfujitsu",
+    url="https://github.com/colino17/pyfujitsu",
     packages=setuptools.find_packages(),
     install_requires=['requests','certifi','chardet','idna','urllib3'] ,
     classifiers=[
