@@ -1,6 +1,6 @@
 from .api import Api as api
 
-#version 0.9.17
+#version 0.9.18
 
 class splitAC:
     def __init__(self,dsn,api):
