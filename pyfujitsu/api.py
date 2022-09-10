@@ -8,7 +8,7 @@ HEADER_CONTENT_TYPE = "Content-Type"
 HEADER_VALUE_CONTENT_TYPE = "application/json"
 HEADER_AUTHORIZATION = "Authorization"
 
-#version 0.9.20
+#version 1.0.0
 
 _LOGGER = logging.getLogger(__name__)
 
