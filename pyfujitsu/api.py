@@ -24,6 +24,7 @@ def _api_headers(access_token=None):
 
 class Api:
     def __init__(self,username,password,region='us',tokenpath='token.txt'):
+        _LOGGER.info("pyfujitsu.api.__init__ version : %s", self.version)
         self.username = username
         self.password = password
         self.region = region
