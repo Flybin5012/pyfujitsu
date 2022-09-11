@@ -1,10 +1,10 @@
-import setuptools
+fujitsuimport setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyfujitsu2",
+    name="pyfujitsu",
     version="1.0.0",
     author="Mehdi Modarressi",
     author_email="Luckposht@gmail.com",
